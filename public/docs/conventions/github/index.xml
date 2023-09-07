@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github on Izydog documentation</title><link>/docs/conventions/github/</link><description>Recent content in Github on Izydog documentation</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 16 Dec 2022 01:04:15 +0000</lastBuildDate><atom:link href="/docs/conventions/github/index.xml" rel="self" type="application/rss+xml"/><item><title>Semantic Commit Messages</title><link>/docs/conventions/github/semantic/</link><pubDate>Sat, 01 Jul 2023 14:09:15 +0000</pubDate><guid>/docs/conventions/github/semantic/</guid><description>See how a minor change to your commit message style can make you a better programmer.
+Title linkFormat: &amp;lt;type&amp;gt;(&amp;lt;scope&amp;gt;): &amp;lt;issue-id&amp;gt; &amp;lt;subject&amp;gt;
+&amp;lt;scope&amp;gt; is optional and allows to specify the scope of the change. &amp;lt;issue-id&amp;gt; is optional set ISSUE in relation of this commit
+Example link feat(table): ISSUE-1425 add hat wobble
+^--^^-----^ ^--------^ ^------------^
+| | | |
+| | | &amp;#43;-&amp;gt; Summary in present tense.
+| | |
+| | &amp;#43;-&amp;gt; Github issue ID.</description></item><item><title>Repository naming</title><link>/docs/conventions/github/naming/</link><pubDate>Sat, 01 Jul 2023 14:09:15 +0000</pubDate><guid>/docs/conventions/github/naming/</guid><description>We follow internal conventions for repository naming to easily identify the scope of each repository.
+List of Types of Production Repositorie link RepositoryType Full name Description Service Service Anything related to recurrent tools/services App App Backend Application MApp Mobile App Mobile Application WApp Web App Web Application How to Name Your Repository linkTo name your repository, simply follow this rule:
+{ConcernedProject}{RepositoryType}
+Examples : link If you are creating a service for backups, the name should be BackupService.</description></item></channel></rss>
